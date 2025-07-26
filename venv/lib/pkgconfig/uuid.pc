@@ -1,0 +1,11 @@
+prefix=/home/iranga/Projects/LangChain-Begineer/venv
+exec_prefix=/home/iranga/Projects/LangChain-Begineer/venv
+libdir=/home/iranga/Projects/LangChain-Begineer/venv/lib
+includedir=/home/iranga/Projects/LangChain-Begineer/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
